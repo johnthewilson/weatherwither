@@ -1,0 +1,83 @@
+/*https://developer.forecast.io/docs/v2
+  API KEY : 5effb18e2860e72b6280a0a6d8ee9fe6
+  
+   for geocode : http://ipinfo.io/
+
+*/
+html { 
+  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+ html,body{
+    margin: 0;
+    height: 100%;
+    background-color : #629AA9;
+    font-family: 'Josefin Sans', sans-serif;
+    color:#465053;
+    font-size:16px;
+}
+section{
+    /*background: url("http://cdn.innovativelanguage.com/wordlists/media/thumb/9192_fit512.jpg") no-repeat center center fixed;    
+    */
+  
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+header {
+    text-align:center;
+}
+.inactive{
+    opacity:.3;
+}
+.active{
+    opacity:1;
+}
+footer {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+}
+.cont{
+    margin:0;
+    margin-left: 50%;
+    margin-top:50px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.canvascont{
+    width: 100%;
+    margin-top:55px;
+   text-align:center;
+}
+
+#icon1{
+    
+    display:inline;
+}
+
+    
+   .circle {
+    border-radius: 50%;
+    
+    width: 399px;
+    height: 399px;
+    text-align: center;
+    background-image:url("/images/cold_fall.jpg");
+    color:#FFFFFF;
+    
+  }
+    .texty{
+      width:auto;
+      font-size:6px;
+    
+      top: 150px;
+  }
+  #location,#summary {
+      font-size:3em;
+  }
